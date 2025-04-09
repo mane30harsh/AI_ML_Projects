@@ -14,9 +14,8 @@ Welcome to the GitHub repository for the LangChain Chatbot with Streamlit GUI! T
 
 A RAG bot is short for Retrieval-Augmented Generation. This means that we are going to "augment" the knowledge of our LLM with new information that we are going to pass in our prompt. We first vectorize all the text that we want to use as "augmented knowledge" and then look through the vectorized text to find the most similar text to our prompt. We then pass this text to our LLM as a prefix.
 
-This is more clearly explained in the [Youtube video tutorial](https://youtu.be/bupx08ZgSFg), but here is a diagram that shows the process:
 
-![RAG Diagram](docs/HTML-rag-diagram.jpg)
+
 
 ## Installation
 Ensure you have Python installed on your system. Then clone this repository:
@@ -45,11 +44,3 @@ To run the Streamlit app:
 streamlit run app.py
 ```
 
-
-Happy Coding! 🚀👨‍💻🤖
-
----
-
-*Don't forget to star this repo if you find it useful!*
-
----
